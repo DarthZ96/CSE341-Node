@@ -1,5 +1,5 @@
 const awesomeFunction = (req, res, next) => {
-    res.json('Awsome person');
+    res.json('Alena McClure');
 };
 
 const returnAnotherPerson = (req, res, next) => {
