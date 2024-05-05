@@ -1,6 +1,8 @@
 const express = require('express');
+const controller = require('../controllers/');
+
 const router = express.Router();
 
-router.use('/contacts', require('./contacts'));
+router.get('/', controller.getData);
 
 module.exports = router;
