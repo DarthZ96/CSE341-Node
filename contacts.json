@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName": "Alena",
+        "lastName": "McClure",
+        "email": "anj428@hotmail.com",
+        "favoriteColor": "Purple",
+        "birthday": "04/28/97"
+    },
+    "contact2": {
+        "firstName": "Angela",
+        "lastName": "MacArthur",
+        "email": "tripleamom@msn.com",
+        "favoriteColor": "Green",
+        "birthday": "08/24/69"
+    },
+    "contact3": {
+        "firstName": "Robert",
+        "lastName": "Jones",
+        "email": "Robert.T.Jones@imegcorp.com",
+        "favoriteColor": "Red",
+        "birthday": "09/21/65"
+    }
+}
