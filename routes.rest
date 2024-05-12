@@ -6,17 +6,15 @@ GET http://localhost:8080/contacts
 GET http://localhost:8080/contacts/66403a1a8cab8165950d9ad4
 
 ### Create contact
-POST http://localhost:8080/contacts/ HTTP/1.1 content-Type: application/json
+POST http://localhost:8080/contacts HTTP/1.1 content-Type: application/json
 
 {
-    "contact4": {
-        "firstName": "Eimi",
-        "lastName": "McClure",
-        "email": "EVJM22@test.com",
-        "favoriteColor": "Pink",
-        "birthday": "10/21/2022"
-    }
-}
+    "firstName": "Eimi",
+    "lastName": "McClure",
+    "email": "EVJM22@test.com",
+    "favoriteColor": "Pink",
+    "birthday": "10/21/2022"
+};
 
 ### PUT contact
 PUT http://localhost:8080/contacts/66403a508cab8165950de7c9 HTTP/1.1 content-Type: application/json
@@ -27,7 +25,7 @@ PUT http://localhost:8080/contacts/66403a508cab8165950de7c9 HTTP/1.1 content-Typ
     "email": "tripleamom@msn.com",
     "favoriteColor": "Green",
     "birthday": "08/24/69"
-}
+};
 
 ### DELETE contact
 DELETE http://localhost:8080/contacts/66403a818cab8165950e36ac HTTP/1.1
@@ -40,7 +38,7 @@ GET https://cse341-node-2-jtrh.onrender.com/contacts
 GET https://cse341-node-2-jtrh.onrender.com/contacts/66403a1a8cab8165950d9ad4
 
 ### Create contact
-POST https://cse341-node-2-jtrh.onrender.com/contacts/ HTTP/1.1 content-Type: application/json
+POST https://cse341-node-2-jtrh.onrender.com/contacts HTTP/1.1 content-Type: application/json
 
 {
     "firstName": "Eimi",
@@ -48,7 +46,7 @@ POST https://cse341-node-2-jtrh.onrender.com/contacts/ HTTP/1.1 content-Type: ap
     "email": "EVJM22@test.com",
     "favoriteColor": "Pink",
     "birthday": "10/21/2022"
-}
+};
 
 ### Put contact
 PUT https://cse341-node-2-jtrh.onrender.com/contacts/66403a508cab8165950de7c9 HTTP/1.1 content-Type: application/json
@@ -59,7 +57,7 @@ PUT https://cse341-node-2-jtrh.onrender.com/contacts/66403a508cab8165950de7c9 HT
     "email": "tripleamom@msn.com",
     "favoriteColor": "Green",
     "birthday": "08/24/69"
-}
+};
 
 ### DELETE contact
 DELETE https://cse341-node-2-jtrh.onrender.com/contacts/66403a818cab8165950e36ac HTTP/1.1
