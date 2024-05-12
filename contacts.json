@@ -19,5 +19,12 @@
         "email": "Robert.T.Jones@imegcorp.com",
         "favoriteColor": "Red",
         "birthday": "09/21/65"
+    },
+    "contact4": {
+        "firstName": "Eimi",
+        "lastName": "McClure",
+        "email": "EVJM22@test.com",
+        "favoriteColor": "Pink",
+        "birthday": "10/21/2022"
     }
 }

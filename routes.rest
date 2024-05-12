@@ -3,7 +3,7 @@
 GET http://localhost:8080/contacts
 
 ### Get contact by id
-GET http://localhost:8080/contacts/6636f788393a9360e260adff
+GET http://localhost:8080/contacts/66403a1a8cab8165950d9ad4
 
 ### Create contact
 POST http://localhost:8080/contacts/ HTTP/1.1 content-Type: application/json
@@ -19,7 +19,7 @@ POST http://localhost:8080/contacts/ HTTP/1.1 content-Type: application/json
 }
 
 ### PUT contact
-PUT http://localhost:8080/contacts/6636f796393a9360e260c420 HTTP/1.1 content-Type: application/json
+PUT http://localhost:8080/contacts/66403a508cab8165950de7c9 HTTP/1.1 content-Type: application/json
 
 {
     "firstName": "Angela",
@@ -30,28 +30,28 @@ PUT http://localhost:8080/contacts/6636f796393a9360e260c420 HTTP/1.1 content-Typ
 }
 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/6636f7a2393a9360e260d5a3 HTTP/1.1
+DELETE http://localhost:8080/contacts/66403a818cab8165950e36ac HTTP/1.1
 
 //PRODUCTION
 ### Get all contacts
 GET https://cse341-node-2-jtrh.onrender.com/contacts
 
 ### Get contact by id
-GET https://cse341-node-2-jtrh.onrender.com/contacts/6636f788393a9360e260adff
+GET https://cse341-node-2-jtrh.onrender.com/contacts/66403a1a8cab8165950d9ad4
 
 ### Create contact
 POST https://cse341-node-2-jtrh.onrender.com/contacts/ HTTP/1.1 content-Type: application/json
 
 {
-    "firstName":"Eimi",
-    "lastName":"McClure",
-    "email":"EVJM22@test.com",
-    "favoriteColor":"Pink",
-    "birthday":"10/21/2022"
+    "firstName": "Eimi",
+    "lastName": "McClure",
+    "email": "EVJM22@test.com",
+    "favoriteColor": "Pink",
+    "birthday": "10/21/2022"
 }
 
-###
-PUT https://cse341-node-2-jtrh.onrender.com/contacts/6636f796393a9360e260c420 HTTP/1.1 content-Type: application/json
+### Put contact
+PUT https://cse341-node-2-jtrh.onrender.com/contacts/66403a508cab8165950de7c9 HTTP/1.1 content-Type: application/json
 
 {
     "firstName": "Angela",
@@ -62,4 +62,4 @@ PUT https://cse341-node-2-jtrh.onrender.com/contacts/6636f796393a9360e260c420 HT
 }
 
 ### DELETE contact
-DELETE https://cse341-node-2-jtrh.onrender.com/contacts/6636f7a2393a9360e260d5a3 HTTP/1.1
+DELETE https://cse341-node-2-jtrh.onrender.com/contacts/66403a818cab8165950e36ac HTTP/1.1
