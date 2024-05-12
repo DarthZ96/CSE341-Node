@@ -15,7 +15,7 @@ content-Type: application/json
     "email":"EVJM22@test.com",
     "favoriteColor":"Pink",
     "birthday":"10/21/2022"
-};
+}
 
 ### PUT contact
 PUT http://localhost:8080/contacts/66403a508cab8165950de7c9 HTTP/1.1
@@ -27,7 +27,7 @@ content-Type: application/json
     "email":"tripleamom@msn.com",
     "favoriteColor":"Green",
     "birthday":"08/24/69"
-};
+}
 
 ### DELETE contact
 DELETE http://localhost:8080/contacts/66403a818cab8165950e36ac HTTP/1.1
@@ -59,7 +59,7 @@ content-Type: application/json
     "firstName":"Angela",
     "lastName":"MacArthur",
     "email":"tripleamom@msn.com",
-    "favoriteColor":"Green",
+    "favoriteColor":"Red",
     "birthday":"08/24/69"
 }
 
