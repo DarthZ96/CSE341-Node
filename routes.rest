@@ -30,7 +30,7 @@ content-Type: application/json
 }
 
 ### DELETE contact
-DELETE http://localhost:8080/contacts/66403a818cab8165950e36ac HTTP/1.1
+DELETE http://localhost:8080/contacts/6640556e8cab81659531ecfd HTTP/1.1
 
 //PRODUCTION
 ### Get all contacts
@@ -59,9 +59,9 @@ content-Type: application/json
     "firstName":"Angela",
     "lastName":"MacArthur",
     "email":"tripleamom@msn.com",
-    "favoriteColor":"Red",
+    "favoriteColor":"Green",
     "birthday":"08/24/69"
 }
 
 ### DELETE contact
-DELETE https://cse341-node-2-jtrh.onrender.com/contacts/66403a818cab8165950e36ac HTTP/1.1
+DELETE https://cse341-node-2-jtrh.onrender.com/contacts/6640556e8cab81659531ecfd HTTP/1.1
