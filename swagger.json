@@ -8,7 +8,7 @@
   "host": "cse341-node-2-jtrh.onrender.com",
   "basePath": "/",
   "schemes": [
-    "https"
+    "https", "http"
   ],
   "paths": {
     "/contacts/": {
@@ -141,6 +141,37 @@
           "500": {
             "description": "Internal Server Error"
           }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Contacts": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "firstName": {
+          "type": "string",
+          "example": "John"
+        },
+        "lastName": {
+          "type": "string",
+          "example": "Dear"
+        },
+        "email": {
+          "type": "string",
+          "example": "Jdoe@test.com"
+        },
+        "favoriteColor": {
+          "type": "string",
+          "example": "Orange"
+        },
+        "birthday": {
+          "type": "string",
+          "example": "05/24/2001"
         }
       }
     }
