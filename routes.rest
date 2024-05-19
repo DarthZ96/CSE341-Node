@@ -1,8 +1,5 @@
 //LOCALHOST
 ### Get all contact
-GET http://localhost:8080/contacts
-
-###
 GET http://localhost:8080/api-docs
 
 ### Get contact by id
